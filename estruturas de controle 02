@@ -1,0 +1,29 @@
+// testando if e else
+#include<stdio.h>
+#include<stdlib.h>
+ int main () 
+ {
+  float media;
+
+   printf ("Digite o valor de media"); 
+   scanf("%f", &media);
+
+if (media>=7)
+{
+   printf("ALUNO APROVADO NOTA \n");
+   printf("nota:%.2f",media );
+} 
+else if (media >= 5)
+{
+    printf("ALUNO DE RECUPERACAO\n");
+    printf("nota:%.2f",media );
+}
+
+else 
+{
+   printf("aluno reprovado\n\n"); 
+
+}
+
+
+ }
